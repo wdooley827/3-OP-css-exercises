@@ -1,0 +1,15 @@
+.blackbox,
+.yellowbox
+{
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.blackbox {
+    color: #ffffff;
+    background-color: #000000;
+}
+.yellowbox {
+    color: #000000;
+    background-color: #ffff00;
+}
