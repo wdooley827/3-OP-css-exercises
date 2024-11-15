@@ -42,5 +42,7 @@ body {
 }
 
 .info {
+  display: flex;
+  flex-direction: row;
   max-width: 200px;
 }

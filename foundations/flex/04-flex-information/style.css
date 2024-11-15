@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -7,9 +8,18 @@ img {
   height: 100px;
 }
 
+/* this orients the container to display the items centered, in a row with, 52px of space inbetween*/
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
