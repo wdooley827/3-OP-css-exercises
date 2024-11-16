@@ -27,3 +27,58 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* going to start adding code like the solutions to easily check work */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  list-style: none;
+  font-size: 24px;
+}
+
+a{
+  text-decoration:none;
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  display: flex;
+  flex: 1 0 300px;
+  padding: 16px;
+}
+
+.content {
+  display: flex;
+  padding: 48px;
+  flex-wrap:wrap;
+  gap: 32px;
+}
+
+.card {
+  padding: 16px;
+  width: 300px;
+}
